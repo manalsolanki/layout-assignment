@@ -1,0 +1,73 @@
+.heading{
+    display: flex;
+}
+.homepage{
+    height:100vh;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    position: relative;
+}
+.upper-half{
+    background-color:#eeb98d;
+    position: relative;
+}
+.lower-half{
+    background-color: #44231d;
+    
+
+}
+.coffe-beans{
+    position: absolute;
+    right: 8%;
+    z-index: 1;
+    height: 60%;
+    width: 400px;
+}
+.coffee-making{
+    position: absolute;
+    left: 8%;
+    z-index: 1;
+    height: 60%;
+    width: 400px;
+    bottom: 0;
+}
+.middle-circle{
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    height: 500px;
+    width: 500px;
+    transform: translate(-50%, -50%);
+}
+.hamburger{
+    position: absolute;
+    right: -1%;
+    height: 20%;
+    z-index: 1;
+    width: 25%;
+}
+.subheading{
+    position: absolute;
+    z-index: 3;
+    top:25%;
+    left:15%;
+    font-size: 4em;
+}
+.about{
+    position:absolute;
+    width: 39%;
+    z-index: 2;
+    right: 0%;
+    font-size:1.5em;
+    bottom:10%;
+    color: darkgoldenrod;
+    font-family: 'Open Sans', sans-serif;
+}
+.logo{
+    margin: 0.5em;
+    font-size: 3em;
+    color: #44231d;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+}
